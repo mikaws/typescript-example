@@ -1,0 +1,13 @@
+// The tsconfig.json file allows you to specifythe root level files and the compiler
+// options that requires to compile a TypeScript project.
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
