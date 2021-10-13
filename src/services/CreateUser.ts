@@ -1,9 +1,9 @@
-interface TechObject {
+interface TechObject { // techs types
     title: string
     experience: number
 }
 
-interface CreateUser {
+interface CreateUser { // user types
     name?: string
     email: string
     password: string
